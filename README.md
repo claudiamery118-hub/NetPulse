@@ -3,7 +3,7 @@
 NetPulse is a distributed system monitoring dashboard that simulates real-time telemetry across multiple servers. It visualizes system health, detects failures, and provides insight into how large-scale infrastructure maintains reliability.
 
 ## Live Demo
-(https://net-pulse-chi.vercel.app/)
+[(https://net-pulse-chi.vercel.app/)](https://net-pulse-chi.vercel.app/)
 
 ---
 
