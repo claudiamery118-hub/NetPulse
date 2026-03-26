@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# NetPulse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NetPulse is a distributed system monitoring dashboard that simulates real-time telemetry across multiple servers. It visualizes system health, detects failures, and provides insight into how large-scale infrastructure maintains reliability.
 
-## Available Scripts
+## Live Demo
+Add your Vercel deployment link here.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Modern platforms rely on distributed systems composed of thousands of servers operating simultaneously. Monitoring performance and reliability across these systems is critical.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+NetPulse models this environment by simulating multiple nodes, generating telemetry data, and presenting system health through an interactive dashboard.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Real-time telemetry simulation for latency, uptime, and request volume  
+- Distributed node dashboard representing multiple servers  
+- Fault detection system highlighting unhealthy nodes  
+- Aggregated system metrics including average latency and node status  
+- Auto-refreshing data to mimic live monitoring systems  
+- Clean, responsive dashboard interface  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## System Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+NetPulse models a simplified distributed system architecture:
 
-### `npm run eject`
+- Nodes (servers) simulate independent telemetry data  
+- A metrics generator produces dynamic latency, uptime, and request values  
+- A monitoring layer evaluates system health and identifies failures  
+- The UI dashboard visualizes both individual node metrics and overall system performance  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This design reflects core concepts used in real-world observability systems.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React  
+- JavaScript  
+- Vercel (deployment)  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## What I Learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- How distributed systems monitor and maintain reliability  
+- How telemetry data is generated and interpreted  
+- Building real-time updating interfaces in React  
+- Designing dashboards for system observability  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
 
-### Analyzing the Bundle Size
+- Backend integration for persistent and real telemetry data  
+- Real-time streaming using WebSockets  
+- Alerting system for critical failures  
+- Historical metrics and trend analysis  
+- Containerized deployment using Docker  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Claudia Fonseca  
+University of Miami — Software Engineering  
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/claudiamery118-hub  
+LinkedIn: https://linkedin.com/in/claudia-fonseca19  
